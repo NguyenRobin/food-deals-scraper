@@ -1,7 +1,6 @@
 
 from features.willys import scrape_willys_week_deals
 from features.ica import scrape_ica_week_deals
-import time
 
 
 def main():

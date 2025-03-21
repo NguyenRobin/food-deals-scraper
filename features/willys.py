@@ -1,6 +1,10 @@
 import requests
 import json
 from my_products import my_favorite_products
+import os
+
+# Absolut sökväg till data.json
+file_path = '/Users/robinnguyen/Desktop/web-scraper-inflation-python/data.json'
 
 
 def fetch_willys_week_deals(page_number):
@@ -15,7 +19,7 @@ def fetch_willys_week_deals(page_number):
 
 def scrape_willys_week_deals():
     print("Scraping Willys")
-    with open('data.json') as file:
+    with open(file_path) as file:
         data = json.load(file)
 
     new_store = {
@@ -74,5 +78,5 @@ def scrape_willys_week_deals():
                 'Finns butiker. Men inte Willys. Så vi lägger till den')
             data['stores'].append(new_store)
 
-    with open("data.json", "w", encoding='utf-8') as file:
+    with open(file_path, "w", encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)

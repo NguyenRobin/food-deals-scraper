@@ -3,10 +3,12 @@ from requests_html import HTMLSession
 import json
 from my_products import my_favorite_products
 
+file_path = '/Users/robinnguyen/Desktop/web-scraper-inflation-python/data.json'
+
 
 def scrape_ica_week_deals():
     print("Scraping ICA")
-    with open('data.json') as file:
+    with open(file_path) as file:
         data = json.load(file)
 
     new_store = {
@@ -20,7 +22,7 @@ def scrape_ica_week_deals():
     r = session.get(
         'https://www.ica.se/erbjudanden/ica-supermarket-torgkassen-1003821/')
 
-    r.html.render(sleep=1)
+    r.html.render(sleep=5)
 
     html_element_array = r.html.find(
         '.offer-card')
@@ -69,5 +71,5 @@ def scrape_ica_week_deals():
             print(
                 'Finns butiker. Men inte ICA. Så vi lägger till den')
             data['stores'].append(new_store)
-    with open("data.json", "w", encoding='utf-8') as file:
+    with open(file_path, "w", encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
