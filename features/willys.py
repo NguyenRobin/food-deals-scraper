@@ -1,9 +1,6 @@
 import requests
 import json
-
-
-with open('data.json') as file:
-    data = json.load(file)
+from my_products import my_favorite_products
 
 
 def fetch_willys_week_deals(page_number):
@@ -17,10 +14,11 @@ def fetch_willys_week_deals(page_number):
 
 
 def scrape_willys_week_deals():
-    my_favorite_products = ['entrecôte', 'lammracks', 'ryggbiff', 'nocco', 'torkpapper',
-                            'köttfärs', 'kyckling', 'rostas', 'lax', 'ägg', 'kaffe', 'smör', 'oxfilé', 'tomat', 'keso', 'vindruvor', 'druvor', 'ikaffe', 'kaffefilter', 'turkisk yoghurt', 'cola', 'bryggkaffe', 'jordgubbar', 'blåbär']
+    print("Scraping Willys")
+    with open('data.json') as file:
+        data = json.load(file)
 
-    store = {
+    new_store = {
         "name": "Willys",
         "address": "Björkgatan 4, 753 27 Uppsala",
         "id": 2194,
@@ -34,9 +32,9 @@ def scrape_willys_week_deals():
 
         if (len(result) > 0):
             for product in result:
-                product_name = product['name'].lower()
+                product_title = product['name'].lower()
 
-                if any(item in product_name for item in my_favorite_products):
+                if any(item in product_title for item in my_favorite_products):
                     start_date_deal = product['potentialPromotions'][0]['startDate']
                     end_date_deal = product['potentialPromotions'][0]['endDate']
                     savePrice = product['potentialPromotions'][0]['savePrice']
@@ -46,8 +44,8 @@ def scrape_willys_week_deals():
                     compare_price = product['potentialPromotions'][0]['comparePrice']
                     original_price = product['priceNoUnit']
 
-                    store["products"].append({
-                        "name": product_name,
+                    new_store["products"].append({
+                        "title": product_title,
                         "price": price,
                         "manufacturer": manufacturer,
                         "image": image,
@@ -63,16 +61,18 @@ def scrape_willys_week_deals():
             break
 
     if not data['stores']:
-        print("Listan är tom! så vi lägger till Willys")
-        data['stores'].append(store)
+        data['stores'].append(new_store)
+
     else:
-        for current in data['stores']:
-            if current['name'].lower() == store['name'].lower():
-                print(current['name'], 'hittad och ändrar')
-                current['products'] = store['products']
+        for store in data['stores']:
+            if store['name'].lower() == new_store['name'].lower():
+                print('WILLYS hittad & uppdaterad')
+                store['products'] = new_store['products']
                 break
-            else:
-                print('No store found')
-    print(data)
+        else:
+            print(
+                'Finns butiker. Men inte Willys. Så vi lägger till den')
+            data['stores'].append(new_store)
+
     with open("data.json", "w", encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
