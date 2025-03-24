@@ -22,7 +22,7 @@ def scrape_ica_week_deals():
     r = session.get(
         'https://www.ica.se/erbjudanden/ica-supermarket-torgkassen-1003821/')
 
-    r.html.render(sleep=5)
+    r.html.render(sleep=2)
 
     html_element_array = r.html.find(
         '.offer-card')
@@ -46,7 +46,7 @@ def scrape_ica_week_deals():
                 'div', class_='offer-card__details-container').find('p', class_='offer-card__text').find('span').text.split('.')[1]
 
             original_price = soup.find(
-                'div', class_='offer-card__details-container').find('p', class_='offer-card__text').find_all('span')[1].text.split(' ')[0]
+                'div', class_='offer-card__details-container').find('p', class_='offer-card__text').find_all('span')[1].text
 
             new_store['products'].append({
                 "title": title,

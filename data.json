@@ -1,1 +1,350 @@
-{ "stores": [] }
+{
+    "stores": [
+        {
+            "name": "Willys",
+            "address": "Björkgatan 4, 753 27 Uppsala",
+            "id": 2194,
+            "products": [
+                {
+                    "title": "färsk kycklingfilé",
+                    "price": "162.0",
+                    "manufacturer": "Guldfågeln",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/02307111100000_C1N1_s03",
+                    "compare_price": "139:00 kr/kg",
+                    "original_price": "162.0",
+                    "save_price": "Spara 23:00 kr/kg",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kycklinggrillkorv",
+                    "price": "21.9",
+                    "manufacturer": "Eldorado",
+                    "image": "https://d2rfo6yapuixuu.cloudfront.net/hfd/he1/10343427932190/Eldorado_kycklinggrillkorv_x2_550_axfood_300",
+                    "compare_price": "40:00 kr/kg",
+                    "original_price": "21.9",
+                    "save_price": "Spara 9:80 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "jordgubbar 250g",
+                    "price": "33.9",
+                    "manufacturer": "Spanien",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07311042004844_C1R1_s01",
+                    "compare_price": "79:60 kr/kg",
+                    "original_price": "33.9",
+                    "save_price": null,
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "tacokyckling",
+                    "price": "86.9",
+                    "manufacturer": "Guldfågeln",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07313940267543_C1C1_s03",
+                    "compare_price": "128:17-153:80 kr/kg",
+                    "original_price": "86.9",
+                    "save_price": "Spara 10:00-21:00 kr",
+                    "start_date_deal": "03/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kycklingfilé",
+                    "price": "194.0",
+                    "manufacturer": "Kronfågel",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07300322624001_C1N1_s01",
+                    "compare_price": "74:50 kr/kg",
+                    "original_price": "194.0",
+                    "save_price": "Spara 45:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "laxfilé 4-pack",
+                    "price": "135.0",
+                    "manufacturer": "Garant",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07311043008780_C1N1_s01",
+                    "compare_price": "238:00 kr/kg",
+                    "original_price": "135.0",
+                    "save_price": "Spara 16:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "skivat smörgåspålägg",
+                    "price": "19.9",
+                    "manufacturer": "Garant",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07311041071748_C1N1_s02",
+                    "compare_price": "145:83-218:75 kr/kg",
+                    "original_price": "19.9",
+                    "save_price": "Spara 4:80-8:80 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kallrökt, gravad lax",
+                    "price": "54.9",
+                    "manufacturer": "Falkenberg",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083486272_C1N1_s01",
+                    "compare_price": "319:33 kr/kg",
+                    "original_price": "54.9",
+                    "save_price": "Spara 7:00-8:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kaffekapslar 30-pack",
+                    "price": "109.0",
+                    "manufacturer": "Dolce Gusto",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07613287023292_C1R1_s01",
+                    "compare_price": "3:30 kr/st",
+                    "original_price": "109.0",
+                    "save_price": "Spara 10:00 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "20/04-2025"
+                },
+                {
+                    "title": "finkrossade tomater 3-pack",
+                    "price": "29.9",
+                    "manufacturer": "Garant",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083480973_C1L1_s02",
+                    "compare_price": "22:99 kr/kg",
+                    "original_price": "29.9",
+                    "save_price": "Spara 3:00 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "20/04-2025"
+                },
+                {
+                    "title": "kaffekapslar 10-pack",
+                    "price": "43.9",
+                    "manufacturer": "Starbucks",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07613036957120_C1L1_s01",
+                    "compare_price": "3:95 kr/st",
+                    "original_price": "43.9",
+                    "save_price": "Spara 8:80 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "20/04-2025"
+                },
+                {
+                    "title": "snabbkaffe",
+                    "price": "76.9",
+                    "manufacturer": "Nescafé",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07613036243865_C1N1_s03",
+                    "compare_price": "432:67 kr/kg",
+                    "original_price": "76.9",
+                    "save_price": "Spara 12:00 kr",
+                    "start_date_deal": "03/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "snabbkaffe",
+                    "price": "74.9",
+                    "manufacturer": "Gevalia",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/08711000538050_C1N1_s03",
+                    "compare_price": "349:50 kr/kg",
+                    "original_price": "74.9",
+                    "save_price": "Spara 5:00 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "20/04-2025"
+                },
+                {
+                    "title": "kaffe",
+                    "price": "75.9",
+                    "manufacturer": "Arvidnordquist",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07310760012896_C1N1_s02",
+                    "compare_price": "135:00 kr/kg",
+                    "original_price": "75.9",
+                    "save_price": "Spara 16:80 kr",
+                    "start_date_deal": "03/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kaffekapslar 10-pack",
+                    "price": "36.9",
+                    "manufacturer": "L'Or",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/08711000360569_C1N1_s02",
+                    "compare_price": "2:97 kr/st",
+                    "original_price": "36.9",
+                    "save_price": "Spara 21:70 kr",
+                    "start_date_deal": "03/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "kaffekapslar 20-pack",
+                    "price": "55.9",
+                    "manufacturer": "Grand Cru",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/03046401900966_C1L1_s01",
+                    "compare_price": "2:00 kr/st",
+                    "original_price": "55.9",
+                    "save_price": "Spara 16:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "finkrossade tomater",
+                    "price": "15.9",
+                    "manufacturer": "Cirio",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/08000320414855_C1C1_s01",
+                    "compare_price": "29:75 kr/kg",
+                    "original_price": "15.9",
+                    "save_price": "Spara 4:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "iskaffe",
+                    "price": "19.9",
+                    "manufacturer": "Löfbergs",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07310050005171_C1N1_s04",
+                    "compare_price": "77:83 kr/l",
+                    "original_price": "19.9",
+                    "save_price": "Spara 2:00 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "06/04-2025"
+                },
+                {
+                    "title": "flora med smör",
+                    "price": "34.9",
+                    "manufacturer": "Flora",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/08719200296015_C1N1_s01",
+                    "compare_price": "65:80 kr/kg",
+                    "original_price": "34.9",
+                    "save_price": "Spara 5:00-7:00 kr",
+                    "start_date_deal": "17/03-2025",
+                    "end_date_deal": "06/04-2025"
+                },
+                {
+                    "title": "turkisk yoghurt",
+                    "price": "19.9",
+                    "manufacturer": "Garant",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07311041065044_C1C1_s01",
+                    "compare_price": "33:80 kr/l",
+                    "original_price": "19.9",
+                    "save_price": "Spara 3:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "ekologiska ägg 10-pack",
+                    "price": "39.9",
+                    "manufacturer": "Garant Eko",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083487798_C1L1_s03",
+                    "compare_price": "3:49 kr/st",
+                    "original_price": "39.9",
+                    "save_price": "Spara 5:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "smör",
+                    "price": "72.9",
+                    "manufacturer": "Svenskt Smör",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07310865005168_C1L1_s01",
+                    "compare_price": "119:80 kr/kg",
+                    "original_price": "72.9",
+                    "save_price": "Spara 13:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                },
+                {
+                    "title": "torkpapper 2-pack",
+                    "price": "54.9",
+                    "manufacturer": "Fixa",
+                    "image": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083434464_C1L1_s04",
+                    "compare_price": "51:97 kr/kg",
+                    "original_price": "54.9",
+                    "save_price": "Spara 6:00 kr",
+                    "start_date_deal": "24/03-2025",
+                    "end_date_deal": "30/03-2025"
+                }
+            ]
+        },
+        {
+            "name": "ICA Supermarket Torgkassen",
+            "address": "Vaksalagatan 30, 753 31 Uppsala",
+            "products": [
+                {
+                    "title": "fryst grillad kyckling",
+                    "price": "75 kr/st",
+                    "manufacturer": "Guldfågeln",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/7313940267543",
+                    "original_price": "Max 2 köp/hushåll. Jmfpris 98:68-156:25/kg. Ord.pris 99:00-109:00 kr. 30dgr.pris 79:00 kr. ",
+                    "addition_information": " Ursprung Sverige"
+                },
+                {
+                    "title": "fryst laxfilé",
+                    "price": "2 för 140 kr",
+                    "manufacturer": "Pacific",
+                    "image": "https://assets.icanet.se/$y_h,$x_w,$pi_current:public_id/c_fit,w_$x,h_$y,u_7318690080428,x_$y_mul_-0.3,y_$x_mul_-0.3/c_lpad,q_auto,f_auto,w_200,h_200/7318690080428",
+                    "original_price": "Max 1 köp/hushåll. Jmfpris 140:00/kg. Ord.pris 109:00 kr. ",
+                    "addition_information": " 500 g"
+                },
+                {
+                    "title": "påläggschark",
+                    "price": "2 för 65 kr",
+                    "manufacturer": "Charkuterifabriken",
+                    "image": "https://assets.icanet.se/$y_h,$x_w,$pi_current:public_id/c_fit,w_$x,h_$y,u_7350025540009,x_$y_mul_-0.3,y_$x_mul_0.6,g_south_east/c_lpad,q_auto,f_auto,w_200,h_200/7350025540009",
+                    "original_price": "Jmfpris 108:33-162:50/kg. Ord.pris 46:90-49:90 kr. ",
+                    "addition_information": " 200-300 g"
+                },
+                {
+                    "title": "frukostägg 12-pack",
+                    "price": "25 kr/st",
+                    "manufacturer": "ICA",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/7318690032953",
+                    "original_price": "Max 2 köp/hushåll. Jmfpris 2:08/st. Ord.pris 37:90 kr. ",
+                    "addition_information": " 12-pack"
+                },
+                {
+                    "title": "gröna kärnfria druvor i ask",
+                    "price": "30 kr/st",
+                    "manufacturer": "ICA",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/prw9srvzpphfqgiqyjt6",
+                    "original_price": "Jmfpris 60:00/kg. Ord.pris 43:00 kr. ",
+                    "addition_information": " Indien"
+                },
+                {
+                    "title": "blåbär i ask",
+                    "price": "25 kr/st",
+                    "manufacturer": "ICA",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/7318693254055",
+                    "original_price": "Jmfpris 200:00/kg. Ord.pris 32:00 kr. ",
+                    "addition_information": " Spanien/Marocko/Portugal"
+                },
+                {
+                    "title": "färsk kycklinglårfilé",
+                    "price": "119 kr/kg",
+                    "manufacturer": "Kronfågel",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/2332802700009",
+                    "original_price": "Ord.pris 159:00 kr. ",
+                    "addition_information": " Ursprung Sverige"
+                },
+                {
+                    "title": "snabbkaffe",
+                    "price": "65 kr/st",
+                    "manufacturer": "Gevalia",
+                    "image": "https://assets.icanet.se/c_lpad,q_auto,f_auto,w_200,h_200/8711000538050",
+                    "original_price": "Max 2 köp/hushåll. Jmfpris 325:00/kg. Ord.pris 81:00-109:00 kr. 30dgr.pris 81:00-109:00 kr. ",
+                    "addition_information": " 200 g"
+                },
+                {
+                    "title": "jordnötssmör",
+                    "price": "30 kr/st",
+                    "manufacturer": "I love eco",
+                    "image": "https://assets.icanet.se/$y_h,$x_w,$pi_current:public_id/c_fit,w_$x,h_$y,u_7318690114963,x_$y_mul_-0.3,y_$x_mul_0.6,g_south_east/c_lpad,q_auto,f_auto,w_200,h_200/7318690129905",
+                    "original_price": "Jmfpris 85:71/kg. Ord.pris 42:90 kr. 30dgr.pris 35:00-42:90 kr. ",
+                    "addition_information": " 350 g"
+                },
+                {
+                    "title": "smördeg, pajdeg",
+                    "price": "2 för 25 kr",
+                    "manufacturer": "ICA",
+                    "image": "https://assets.icanet.se/$y_h,$x_w,$pi_current:public_id/c_fit,w_$x,h_$y,u_7318690505044,x_$y_mul_-0.3,y_$x_mul_-0.3/c_lpad,q_auto,f_auto,w_200,h_200/7318690166740",
+                    "original_price": "Jmfpris 44:64-50:00/kg. Ord.pris 21:90-30:90 kr. ",
+                    "addition_information": " 250-280 g"
+                }
+            ]
+        }
+    ]
+}
